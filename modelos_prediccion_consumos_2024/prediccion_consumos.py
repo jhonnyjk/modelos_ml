@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 # Cargar el dataset
 df = pd.read_excel("C:/Users/jhuamanciza/Desktop/Temporal/modelo_planificacion/dataset/dataset_general.xlsx")
 
-# Convertir la columna "fecha" a formato datetime
+# Convertir la columna fecha a formato datetime
 df['fecha'] = pd.to_datetime(df['fecha'])
 
 # Crear una columna para representar el mes y el año por separado
@@ -21,7 +21,7 @@ df['id_encoded'] = le.fit_transform(df['id'])
 # Separar el dataset por insumo
 insumos = df['id_encoded'].unique()
 
-# Número de meses para la predicción
+# Numero de meses para la predicción
 num_meses_prediccion = 6
 
 # Lista para almacenar los resultados
