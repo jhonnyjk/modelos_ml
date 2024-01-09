@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from datetime import datetime, timedelta
 
 # Cargar el dataset
-df = pd.read_excel("C:/Users/jhuamanciza/Desktop/Temporal/modelo_planificacion/dataset/dataset_muestra.xlsx")
+df = pd.read_excel("C:/Users/jhuamanciza/Desktop/Temporal/modelo_planificacion/dataset/dataset_general.xlsx")
 
 # Convertir la columna "fecha" a formato datetime
 df['fecha'] = pd.to_datetime(df['fecha'])
