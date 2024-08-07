@@ -1,5 +1,5 @@
 
-# Predicción de consumos
+# Proyeccion de consumos
 
 
 Este repositorio contiene un script en Python para predecir el consumo de insumos utilizando un modelo RandomForestRegressor. El código está diseñado para trabajar con un conjunto de datos que contiene información temporal sobre el consumo de diferentes insumos.
